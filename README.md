@@ -17,9 +17,6 @@ The goal of the project is purely educational: to practice transfer learning, da
 - **`test_set/`**  
   Folder containing the test images used for evaluation (13 paintings per artist).
 
-- **`top3_painters/`**  
-  Folder containing the filtered training images for the three most represented painters from the Kaggle dataset.
-
 - **`best_painter_top3_resnet18.pth`**  
   Saved weights of the trained ResNet-18 model used during testing.
 
@@ -32,7 +29,12 @@ Training images are taken from the Kaggle dataset:
 **Best Artworks of All Time**  
 https://www.kaggle.com/datasets/ikarus777/best-artworks-of-all-time
 
-Due to heavy class imbalance, only the **top three most represented painters** were used for training.
+Due to heavy class imbalance, only the **top three most represented painters** were used for training. 
+
+These images are stored in:
+
+- **`top3_painters/`**  
+  Download the dataset from Kaggle: https://www.kaggle.com/datasets/gabrielepinna/painter-artworks
 
 ---
 
